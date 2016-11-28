@@ -1,0 +1,33 @@
+{
+  "name": "adugo",
+  "version": "1.0.0",
+  "description": "Multiplayer browser adugo implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosefKuchar/Adugo.git"
+  },
+  "keywords": [
+    "multiplayer",
+    "browser",
+    "adugo"
+  ],
+  "author": "Josef Kuchař",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JosefKuchar/Adugo/issues"
+  },
+  "homepage": "https://github.com/JosefKuchar/Adugo#readme",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "socket.io": "^1.7.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
+  }
+}
